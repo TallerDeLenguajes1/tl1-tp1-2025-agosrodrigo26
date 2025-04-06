@@ -31,14 +31,22 @@ node_modules
 #### BIBLIOGRAFÍA
 [bibliografia] (https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agregar-a-tu-repositorio/)
 
-### Resultados punto g
+### Resultados punto 3
 Los resultados del punto 2 y 3 son iguales ya que el puntero (Declarado como _puntero_) apunta a un entero y se inicializó con la dirección de memoria de la variable num:
 
 
 _int *puntero = &num_
+
 
 El puntero almacena la dirección de memoria de num, asi que cuando se lo imprime con
 
 _printf("%p", puntero)_ 
 
 El valor resultante, es la dirección de memoria de num.
+
+Lo obtenido en el punto 4 no es igual a los anteriores (Punto 2 y 3) ya que estamos presentando por pantalla la **dirección de memoria del propio puntero**. Un puntero puede almacenar una dirección de memoria de una variable pero también tiene una **dirección de memoria propia**, donde reside la variable puntero.
+
+-La dirección de memoria del puntero es la ubicación en la memoria donde se almacena el puntero mismo. Es decir, es la dirección de memoria en la que reside la variable puntero.
+
+-La dirección de memoria a la que apunta el puntero es la **dirección que está almacenada dentro del puntero**, y esta dirección puede apuntar a cualquier variable u objeto en memoria.
+
