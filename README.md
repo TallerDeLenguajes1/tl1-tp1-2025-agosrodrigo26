@@ -31,3 +31,14 @@ node_modules
 #### BIBLIOGRAFÍA
 [bibliografia] (https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agregar-a-tu-repositorio/)
 
+### Resultados punto g
+Los resultados del punto 2 y 3 son iguales ya que el puntero (Declarado como _puntero_) apunta a un entero y se inicializó con la dirección de memoria de la variable num:
+
+
+_int *puntero = &num_
+
+El puntero almacena la dirección de memoria de num, asi que cuando se lo imprime con
+
+_printf("%p", puntero)_ 
+
+El valor resultante, es la dirección de memoria de num.
